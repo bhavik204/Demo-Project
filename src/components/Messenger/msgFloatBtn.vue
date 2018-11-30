@@ -845,7 +845,7 @@
         }
 
         .speech-bubble-ds-arrow {
-            border-left: 21px solid transparent;
+            border-left: 0px solid transparent;
             /* border-top: 20px solid rgba(0, 0, 0, 0.2); */
             bottom: -25px;
             position: absolute;
