@@ -277,6 +277,7 @@
             this.floatArrow += this.bgColor
             this.btnColor = this.bgColor
             console.log('oppa',this.floatArrow)
+            console.log('iossueee',this.step2)
             if(this.step2 == false || this.step3 == false){
                 setTimeout(this.msgPopup, 10000)
             }
@@ -310,6 +311,8 @@
                 this.msgToggle = false  
                 this.msgPop=true
                 this.step1 = true
+                this.step2 =false
+                this.step3 = false
                 console.log(this.msgPop)
             },
             closePopup(e){
