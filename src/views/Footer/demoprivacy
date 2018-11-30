@@ -1,0 +1,409 @@
+<template>
+        <!-- Presales-Advisor Pitch- Aboutus Tab -->
+<div style="background-color: #e0e2e5">
+  <scroller >
+      <div class="col">
+        <div class="box">
+                <div v-for="(num,i) in numArray" :key="i" class="nx-flex-bt-marg">
+          <div class="card shadow">
+            <div class="row " style=" background-color:white">
+              <text class="text-head selectbor" style="padding-left: 4px; ">{{num.contnm}}</text>
+            </div>
+            <div style="padding-top:10px">
+                <div class="box"><text class="text-med">{{num.listdef7}}</text></div>
+                <div class="box"><text class="text-med">1. {{num.listdef1}}</text></div>
+                <div class="box"><text class="text-med">2. {{num.listdef2}}</text></div>
+                <div class="box"><text class="text-med">3. {{num.listdef3}}</text></div>
+                <div class="box"><text class="text-med">4. {{num.listdef4}}</text></div>
+                <div class="box"><text class="text-med">{{num.listdef5}}</text></div>
+                <div class="box"><text class="text-med">{{num.listdef6}}</text></div>
+
+              
+            </div>
+          </div>
+          </div>
+        </div> 
+      </div>
+      </scroller>
+</div>
+</template>
+
+<script>
+const navigator = weex.requireModule('navigator');
+const invalid = '- invalid -'
+
+export default {
+    created() {
+        if (typeof WXEnvironment === 'object') {
+        this.platform = WXEnvironment.platform || unknown
+        this.deviceWidth = WXEnvironment.deviceWidth || unknown
+        }
+        },
+  props: {
+      listItems: {
+          type: Array
+      }
+
+  },
+  data: function() {
+      return {
+        platform: invalid,
+        headerName:'Privacy Policy ',
+        deviceWidth: invalid,
+        numArray: [{
+                contnm: 'Privacy Policy',
+                
+                listhead1:'Definitions',
+                listdef7: 'At ABC Insurance, we are committed to protect and maintain the confidentiality of any information relating to our customers. The information about your domain name, date and time of access to website, internet address which linked you to our website and the pages that you visited collected by us, would be kept confidential and would be used for the following purposes only:',
+                listdef1 : 'To meet legal requirements (if any)',
+                listdef2 : 'To protect and defend ABC Insurance or its Affiliates rights, interests or property',
+                listdef3 : 'To analyze the usage pattern of the site or to get statistics on the number of visitors to the site',
+                listdef4: 'For processing and assessment of your application/claims',
+                listdef5: 'ABC Insurance will not be responsible in any manner for any direct or indirect damages that may arise out of the use of this website.',
+                listdef6: 'ABC Insurance has the right to change any part of the said content on the website at any time at its sole discretion.',
+                
+                
+               
+            },
+        ]
+    
+              }
+  },
+  
+  methods: {
+      jump(to) {
+          if (this.$router) {
+              this.$router.push(to)
+          }
+      }
+      
+  }
+  
+}
+
+
+</script>
+
+<style scoped>
+   
+
+    .col {
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e2e5;
+    }
+
+    .row {
+    display: flex;
+    flex-direction: row;
+    background-color: #e0e2e5;
+    }
+   
+    .card {
+    background-color: white;
+    margin: 25px 50px 10px 50px;
+    }
+    .box {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+   
+   
+    /* @@ */
+    /* Text CSS */
+    .text-head{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0px 3px 8px;
+    }
+    .text-cap{
+    font-size: 25px;
+    color: black;
+    padding: 10px 8px 3px 8px;
+    }
+    .text-med{
+    font-size: 24px;
+    color: #565656;
+    padding: 3px 8px 0px 8px;
+    }
+    .text-bold{
+    font-size: 25px;
+    padding-top: 7px;
+    font-weight: bold;
+    color: black;
+    padding: 10px 8px 3px 8px;
+    }
+   
+    /* @@ */
+    /* Border CSS */
+    .select
+    {
+    
+    display: inline-table;
+    background-color:white;
+    padding-left:5px;
+    padding-right: 5px;
+    border-width: 1px;
+    border-color: #f4f5f7;
+    padding-top:12px;
+    padding-bottom:12px;
+    /* color: black; */
+    }
+    .selectbor{
+        border-bottom:3px solid;
+        display: inline-table;
+    }
+    .add-border {
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #fff;
+    border-right-color: #fff;
+    border-left-color: #fff;
+    border-bottom-color: #e7e7e7;
+    }
+    .add-border1 {
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #6e6d6d;
+    border-right-color: #6e6d6d;
+    border-left-color:#6e6d6d;
+    border-bottom-color: #6e6d6d;
+    }
+    /* @@ */
+   
+    .tab-flex-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    }
+    
+    .flex-row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    .nx-flex-column {
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    .nx-flex-bt-marg {
+    margin-bottom: 20px;
+    }
+    .flex-column {
+    flex-direction: column;
+    }
+    .flex-row {
+    flex-direction: row;
+    }
+
+    
+    @media (min-width: 320px) {
+    .scroller {
+    /* overflow: auto; */
+    }
+    .flex-row {
+    flex-direction: column;
+    }
+    .item-alignment {
+    align-items: left;
+    }
+    .flex-direction-change {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    }
+    .flex-row-content-hidden {
+    overflow: scroll;
+    }
+    .card {
+    background-color: white;
+    margin: 15px 10px 10px 10px;
+    }
+   
+     /* Text CSS */
+     .text-head{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right:20px;
+    }
+    .text-cap{
+    font-size: 15px;
+    color: black;
+    }
+    .text-med{
+    font-size: 15px;
+    color: #565656;
+    padding: 3px 8px 0px 8px;
+    }
+    .text-bold{
+    font-size: 15px;
+    padding-top: 7px;
+    font-weight: bold;
+    color: black;
+    padding-right:20px;
+    padding-bottom: 5px;
+    }
+    /* @@ */
+
+     .spacebtn{
+        padding: 0px 15px 0px 0px;
+    }
+    .spacearound{
+        padding-left: 20px;
+    }
+    .spacemrg{
+        margin-left: 30px;
+    }
+    }
+
+    
+    @media (min-width: 768px) {
+    
+    .flex-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .item-alignment {
+    align-items: left;
+    }
+    .nx-flex-bt-marg {
+    margin-bottom: 10px;
+    }
+    .flex-direction-change {
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+   
+    .shadow {
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+    }
+  
+    /* Text CSS */
+    .text-head{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right:20px;
+    }
+    .text-cap{
+    font-size: 15px;
+    color: black;
+    }
+    .text-med{
+    font-size: 15px;
+    color: #565656;
+    padding: 3px 8px 0px 8px;
+    }
+    .text-bold{
+    font-size: 15px;
+    padding-top: 7px;
+    font-weight: bold;
+    color: black;
+    padding-right:20px;
+    padding-bottom: 5px;
+    }
+    /* @@ */
+    }
+
+    /* High Resolution Laptops and Desktops */
+    @media (min-width: 992px) {
+    .outer-flex-col {
+    flex-direction: column;
+    }
+    .tab-flex-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .tab-flex-row1 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    }
+    .flex-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .nx-flex-column {
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+    .tab-font-size {
+    font-size: 25px;
+    }
+    .tab-text-font-size {
+    font-size: 15px;
+    }
+    .row-simple {
+        display: flex;
+        flex-direction: row;
+        background-color:white; 
+        padding-bottom:10px; 
+        padding-top: 3px;
+    }
+    .card {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    border-radius: 2px;
+    }
+    .box {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 5px;
+    }
+   
+    /* Text CSS */
+    .text-head{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right:20px;
+    }
+    .text-cap{
+    font-size: 15px;
+    color: #565656;;
+    }
+    .text-med{
+    font-size: 15px;
+    color: #565656;
+    padding: 3px 8px 0px 8px;
+    }
+    .text-bold{
+    font-size: 15px;
+    padding-top: 7px;
+    font-weight: bold;
+    color: black;
+    padding-right:20px;
+    padding-bottom: 5px;
+    }
+    /* @@ */
+    
+    .shadow {
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+    }
+    .spacebtn{
+        padding: 0px 15px 0px 0px;
+    }
+    .spacearound{
+        padding-left: 10px;
+    }
+    .spacemrg{
+        margin-left: 30px;
+    }
+
+    }
+
+
+
+   
+
+
+
+
+</style>

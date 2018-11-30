@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

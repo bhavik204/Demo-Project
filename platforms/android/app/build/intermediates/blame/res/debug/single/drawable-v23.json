@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
+        "source": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.4.0\\res\\raw\\zxing_beep.ogg"
+    },
+    {
+        "merged": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
+        "source": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.4.0\\res\\raw\\zxing_beep.ogg"
+    },
+    {
+        "merged": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
+        "source": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.4.0\\res\\raw\\zxing_beep.ogg"
+    }
+]

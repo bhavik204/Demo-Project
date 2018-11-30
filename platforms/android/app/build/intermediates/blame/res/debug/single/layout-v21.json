@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_action.xml"
+    }
+]

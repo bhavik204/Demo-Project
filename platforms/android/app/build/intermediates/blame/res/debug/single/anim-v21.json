@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\sudeep_dk\\irota\\sales_drive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\SalesDrive\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\SalesDrive\\New-Clone\\sales_drive_weex\\sales-ui\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    }
+]
