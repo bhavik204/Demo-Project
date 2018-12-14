@@ -51,6 +51,9 @@ const store = new Vuex.Store({
     actions,
     mutations,
     state: loadState() || {
+        // Messenger
+        msg:'',
+        messageList:[],
         agentDetails: [],
         proposalFmlyDetails: [],
         imagelink: 'https://www.materialui.co/materialIcons/av/not_interested_white_192x192.png',
@@ -106,7 +109,7 @@ const store = new Vuex.Store({
 
         // for testing purpos
 
-        aadharNumber: ''
+        aadharNumber: '',
     },
 
     getters: {
@@ -165,6 +168,10 @@ const store = new Vuex.Store({
         },
         getResponseFromStore(state) {
             return state.errInResponse;
+        },
+        // Messenger
+        getMessageList(state){
+            return state.messageList;
         }
     }
 })

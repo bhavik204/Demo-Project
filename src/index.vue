@@ -16,12 +16,7 @@
 
         </scroller>
         <footer-tab></footer-tab>
-    <floatBtn 
-        bgColor="red"
-        title="Welcome"
-        sub-title="Please add your email id."
-        details="Team will reply soon"
-        ></floatBtn>
+    <floatBtn bg-color="blue"></floatBtn>
   </div>
 </template>
 
